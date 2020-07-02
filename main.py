@@ -8,7 +8,7 @@ def notifyMe(title,message):
     notification.notify(
         title = title,
         message = message,
-        app_icon = 'C:/Users/Gaurav/PycharmProjects/corona notification/icon.ico',
+        app_icon = 'icon.ico',
         timeout = 10
     )
 def getData(url):
